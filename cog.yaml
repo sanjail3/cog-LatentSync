@@ -2,8 +2,8 @@
 # Reference: https://cog.run/yaml
 
 build:
-  gpu: true
-  cuda: "12.1"
+  gpu: false
+  cuda: "none"
   system_packages:
     - "ffmpeg"
     - "libgl1"
